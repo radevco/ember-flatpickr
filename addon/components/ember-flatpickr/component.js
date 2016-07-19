@@ -35,7 +35,7 @@ export default TextField.extend({
    */
   onChange(dateObject, dateString) {
     if (typeof dateObject !== 'undefined') {
-      this.set('value', dateObject);
+      // this.set('value', dateObject);
       this.sendAction('onChangeAction', dateObject, dateString);
     }
   },
